@@ -1,0 +1,11 @@
+adminUser:
+  password: vault:catmisty/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: arcalos-admin@googlegroups.com
+  token: vault:catmisty/pipelineUser:token
+  username: cloudbees-ci-cd-play[bot]
+prow:
+  hmacToken: vault:catmisty/prow:hmacToken
+segmentWriteKey: vault:catmisty:segmentWriteKey
